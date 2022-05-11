@@ -26,6 +26,8 @@ Profiles_Dataset = pd.read_csv("G:\Shared drives\_Research Repository - Mostafa 
 n_segments = 4 # best number based on different tests
 mu = 0.5
 #%%
+Some changes :)
+
 def approx_PWLF(Subj1,Subj2): # approaximating objective function and constraints
     Multi = Profiles_Dataset["Probability" + str(Subj1)] + Profiles_Dataset["Probability" + str(Subj2)]
     Multi = Multi - Multi.min()
